@@ -1,7 +1,7 @@
 {
   "name": "test_shop",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://tarasprocishin.github.io/test_shop/",
   "dependencies": {
     "gh-pages": "^2.0.1",
