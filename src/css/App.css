@@ -1,0 +1,137 @@
+@import "fontello.css";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+button {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.basket-icon {
+  padding: 10px 0;
+  background: #69c983;
+  display: flex;
+}
+.basket h2{
+  display: inline-block;
+}
+.basket__icon{
+  position: relative;
+}
+
+.icon-basket {
+  font-size: 32px;
+}
+
+.basket-empty {
+  font-size: 45px;
+  text-align: center;
+  line-height: 80vh;
+}
+
+.basket-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.return {
+  background: #69c983;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.return button {
+  color: white;
+  font-size: 20px;
+  transition: 0.5s;
+  border: 1px solid white;
+  border-radius: 5px;
+  line-height: 31px;
+  width: 20%;
+  height: 31px;
+  transition: 0.5s;
+}
+
+.return button:hover{
+  font-size: 22px;
+}
+
+.sum_price {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.sum_price {
+  font-size: 32px;
+}
+
+.sum_price__btn {
+  width: 20%;
+  height: 30px;
+  border: 1px solid #de6e3a ;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.sum_price__btn:hover {
+  background: #de6e3a;
+  width: 22%;
+  height: 35px;
+}
+
+.counter {
+  background: red;
+  position: absolute;
+  bottom: 30px;
+  border-radius: 15px;
+  width: 23px;
+  height: 23px;
+  line-height: 23px;
+  font-size: 16px;
+}
+.product__item {
+  border: solid grey 1px;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 10px;
+}
+.product__price {
+  display: flex;
+  justify-content: space-between;
+}
+.product__btn {
+  border: 1px solid #de6e3a ;
+  border-radius: 5px;
+  transition: 0.5s;
+  width: 15%;
+  height: 30px;
+}
+
+.product__btn:hover {
+  background: #de6e3a;
+  color: white;
+  font-size: 18px;
+}
+.product__btn:focus {
+  outline: none;
+}
